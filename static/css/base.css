@@ -27,7 +27,7 @@ a, a:visited {
 }
 
 
-a:hover{
+a:hover {
 	color: #2980b9;
 }
 
@@ -35,7 +35,8 @@ a:hover{
 #b-card {
 	background-color: #fff;
 	box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
-	max-width:50vw;
+	max-width: 50vw;
+	min-width: 50vw;
 	padding: 20px;
 	text-align: center;
 
