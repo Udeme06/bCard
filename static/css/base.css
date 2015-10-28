@@ -1,22 +1,43 @@
 /* element styles */
 
 body {
+
 	background-color: #ecf0f1;
 	font-family: 'Source Sans Pro', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+h1 {
+	text-align: center;
 }
 
 img {
 	border: 8px solid #ecf0f1;
 	width: 50%;
-	max-width: 150px;
+	max-width: 150px ;
 	border-radius: 50%;
 }
+
+a, a:visited {
+	color: #ECF0F1;
+	font-size: 1.5rem;
+}
+
+
+a:hover{
+	color: #2980b9;
+}
+
 
 #b-card {
 	background-color: #fff;
 	box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
-	max-width: 50vw;
+	max-width:50vw;
 	padding: 20px;
+	text-align: center;
 
 }
 
